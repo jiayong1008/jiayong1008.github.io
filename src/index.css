@@ -9,14 +9,29 @@
   list-style: none;
 }
 
+/* ==============  BLUE  ============= */
 :root {
-  --colour-bg: #1f1f38;
-  --colour-bg-variant: #2c2c6c;
-  --colour-primary: #4db5ff;
-  --colour-primary-variant: rgba(77, 181, 255, 0.4);
-  --colour-white: #fff;
-  --colour-light: rgba(255, 255, 255, 0.6);
+  --bg-hue: 240;
+  --primary-hue: 205;
+
+  --colour-bg: hsl(var(--bg-hue), 29%, 17%);
+  --colour-bg-variant: hsl(var(--bg-hue), 42%, 30%);
+  --colour-primary: hsl(var(--primary-hue), 100%, 65%);
+  --colour-primary-variant: hsla(var(--primary-hue), 100%, 65%, 0.4);
+  --colour-white: hsl(0, 0%, 100%);
+  --colour-light: hsla(0, 0%, 100%, 0.6) !important;
+  --nav-bg: hsla(0, 0%, 0%, 0.3);
   --transition: all 600ms ease;
+} 
+
+body.light-theme {
+  --colour-bg: hsl(var(--bg-hue), 100%, 99%);
+  --colour-bg-variant: hsla(var(--primary-hue), 80%, 70%, 0.2);
+  --colour-primary: hsl(var(--primary-hue), 100%, 75%);
+  --colour-primary-variant: hsla(var(--primary-hue), 100%, 80%, 0.4);
+  --colour-white: hsl(0, 0%, 30%);
+  --colour-light: hsla(0, 0%, 20%, 0.6) !important;
+  --nav-bg: hsla(0, 0%, 0%, 0.1);
 }
 
 html {
@@ -32,7 +47,7 @@ body {
   background: var(--colour-bg);
   color: var(--colour-white);
   line-height: 1.7;
-  background-image: url(./assets/bg-texture.png);
+  /* background-image: url(./assets/bg-texture.png); */
 }
 
 /* ============= GENERAL STYLES ============= */
@@ -54,7 +69,7 @@ section > h2 {
   margin-bottom: 3rem;
 }
 
-.text-light {
+.text-lighter {
   color: var(--colour-light);
 }
 
@@ -89,6 +104,28 @@ img {
   display: block;
   width: 100%;
   object-fit: cover;
+}
+
+/* ============= TOP NAV SECTION ============= */
+.topnav__container {
+  background: var(--colour-bg);
+  /* background-image: url(./assets/bg-texture.png); */
+}
+
+header a {
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+.topnav__icon {
+  font-size: 1.5rem;
+  color: var(--colour-light);
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.topnav__icon:hover {
+  color: var(--colour-white);
 }
 
 /* ============= WELCOME SECTION ============= */
