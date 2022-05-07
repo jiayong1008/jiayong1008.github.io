@@ -1,5 +1,6 @@
 import React from 'react'
 import zen from '../assets/zen-sushi.jpg'
+import krypt from '../assets/krypt.png'
 
 
 const PortfolioWrapper = ({ image, title, github, youtube }) => (
@@ -25,21 +26,12 @@ const Portfolio = () => {
         <PortfolioWrapper image={zen} title='Restaurant Management System'
           github='https://github.com/jiayong1008/laravel-zen-sushi/'
           youtube='https://youtu.be/jOz4F5gLhxg/' />
-        <PortfolioWrapper image={zen} title='This is a portfolio title.'
+        <PortfolioWrapper image={krypt} title='Blockchain App - Send Eth to Anybody'
           github='https://github.com/jiayong1008/laravel-restaruant-zen/tree/main/'
           youtube='https://youtu.be/jOz4F5gLhxg/' />
         <PortfolioWrapper image={zen} title='This is a portfolio title.'
           github='https://github.com/jiayong1008/laravel-restaruant-zen/tree/main/'
           youtube='https://youtu.be/jOz4F5gLhxg/' />
-        {/* <PortfolioWrapper image={zen} title='This is a portfolio title.'
-          github='https://github.com/jiayong1008/laravel-restaruant-zen/tree/main/'
-          youtube='https://youtu.be/jOz4F5gLhxg/' />
-        <PortfolioWrapper image={zen} title='This is a portfolio title.'
-          github='https://github.com/jiayong1008/laravel-restaruant-zen/tree/main/'
-          youtube='https://youtu.be/jOz4F5gLhxg/' />
-        <PortfolioWrapper image={zen} title='This is a portfolio title.'
-          github='https://github.com/jiayong1008/laravel-restaruant-zen/tree/main/'
-          youtube='https://youtu.be/jOz4F5gLhxg/' /> */}
       </div>
     </section>
   )

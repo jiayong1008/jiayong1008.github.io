@@ -396,6 +396,7 @@ nav a.active {
 }
 
 .portfolio__item {
+  /* height: 70vh; */
   background: var(--colour-bg-variant);
   padding: 1.3rem;
   border-radius: 2rem;
@@ -411,6 +412,7 @@ nav a.active {
 .portfolio__item-img {
   border-radius: 1.5rem;
   overflow: hidden;
+  height: 300px;
 }
 
 .portfolio__item h3 {
