@@ -4,7 +4,7 @@ import krypt from '../assets/krypt.png'
 import joker from '../assets/joker.jpg'
 
 
-const PortfolioWrapper = ({ image, title, github, youtube }) => (
+const PortfolioWrapper = ({ image, title, github, demo }) => (
   <article className="portfolio__item">
     <div className="portfolio__item-img d-flex justify-content-center align-items-center">
       <img src={image} alt={image} />
@@ -12,7 +12,7 @@ const PortfolioWrapper = ({ image, title, github, youtube }) => (
     <h3 className='my-4'>{title}</h3>
     <div className="d-flex justify-content-center gap-3 mb-3">
       <a href={github} className='btn' target='_blank'>Github</a>
-      <a href={youtube} className='btn btn-primary' target='_blank'>Live Demo</a>
+      <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
     </div>
   </article>
 );
@@ -26,13 +26,13 @@ const Portfolio = () => {
       <div className="container portfolio__container">
         <PortfolioWrapper image={zen} title='Restaurant Management System'
           github='https://github.com/jiayong1008/laravel-zen-sushi/'
-          youtube='https://youtu.be/jOz4F5gLhxg/' />
+          demo='https://youtu.be/jOz4F5gLhxg/' />
         <PortfolioWrapper image={krypt} title='Blockchain App - Send Eth to Anybody'
-          github='https://github.com/jiayong1008/laravel-restaruant-zen/tree/main/'
-          youtube='https://youtu.be/jOz4F5gLhxg/' />
+          github='https://github.com/jiayong1008/web3-krypt/'
+          demo='https://jiayong1008.github.io/web3-krypt/' />
         <PortfolioWrapper image={joker} title='Customized ERC20 Token'
-          github='https://github.com/jiayong1008/laravel-restaruant-zen/tree/main/'
-          youtube='https://jiayong1008.github.io/web3-joker/' />
+          github='https://github.com/jiayong1008/web3-joker'
+          demo='https://jiayong1008.github.io/web3-joker/' />
       </div>
     </section>
   )

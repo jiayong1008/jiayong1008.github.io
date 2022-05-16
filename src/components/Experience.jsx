@@ -34,6 +34,7 @@ const Experience = () => {
           <h3>Backend Development</h3>
           <div className="experience__content">
             <ExperienceDetail title="Solidity" proficiency="Intermediate" />
+            <ExperienceDetail title="Hardhat" proficiency="Intermediate" />
             <ExperienceDetail title="PHP Laravel" proficiency="Intermediate" />
             <ExperienceDetail title="Python Django" proficiency="Intermediate" />
             <ExperienceDetail title="Python Flask" proficiency="Intermediate" />
