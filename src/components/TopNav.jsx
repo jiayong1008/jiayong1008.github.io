@@ -18,7 +18,7 @@ const TopNav = () => {
       <div className="topnav__container fixed-top shadow">
         <div className="container py-4">
           <header className='d-flex justify-content-between'>
-              <a href="#">Name</a>
+              <a href="#">Hope</a>
               {dark && (<HiOutlineSun className='topnav__icon' onClick={() => switchDark(false)} />)}
               {!dark && (<HiOutlineMoon className='topnav__icon' onClick={() => switchDark(true)} />)}            
           </header>

@@ -9,7 +9,7 @@ const Welcome = () => {
         <div className="container pt-5 text-center h-100 position-relative">
             <h5 className='pt-5'>Hello, I'm</h5>
             <h1>Hope Lim Jia Yong</h1>
-            <h5 className="text-lighter">Fullstack Developer</h5>
+            <h5 className="text-lighter">Fullstack / Web3.0 Developer</h5>
 
             {/* CTA */}
             <div className="mt-4 d-flex justify-content-center">
