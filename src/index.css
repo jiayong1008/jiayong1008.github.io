@@ -413,6 +413,7 @@ nav a.active {
   border-radius: 1.5rem;
   overflow: hidden;
   height: 300px;
+  background: var(--nav-bg);
 }
 
 .portfolio__item h3 {

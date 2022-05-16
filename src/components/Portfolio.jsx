@@ -1,11 +1,12 @@
 import React from 'react'
-import zen from '../assets/zen-sushi.jpg'
+import zen from '../assets/zen.png'
 import krypt from '../assets/krypt.png'
+import joker from '../assets/joker.jpg'
 
 
 const PortfolioWrapper = ({ image, title, github, youtube }) => (
   <article className="portfolio__item">
-    <div className="portfolio__item-img">
+    <div className="portfolio__item-img d-flex justify-content-center align-items-center">
       <img src={image} alt={image} />
     </div>
     <h3 className='my-4'>{title}</h3>
@@ -29,9 +30,9 @@ const Portfolio = () => {
         <PortfolioWrapper image={krypt} title='Blockchain App - Send Eth to Anybody'
           github='https://github.com/jiayong1008/laravel-restaruant-zen/tree/main/'
           youtube='https://youtu.be/jOz4F5gLhxg/' />
-        <PortfolioWrapper image={zen} title='This is a portfolio title.'
+        <PortfolioWrapper image={joker} title='Customized ERC20 Token'
           github='https://github.com/jiayong1008/laravel-restaruant-zen/tree/main/'
-          youtube='https://youtu.be/jOz4F5gLhxg/' />
+          youtube='https://jiayong1008.github.io/web3-joker/' />
       </div>
     </section>
   )
