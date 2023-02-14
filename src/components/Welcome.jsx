@@ -8,8 +8,8 @@ const Welcome = () => {
   <section className="welcome pt-5 overflow-hidden">
         <div className="container pt-5 text-center h-100 position-relative">
             <h5 className='pt-5'>Hello, I'm</h5>
-            <h1>Hope Lim Jia Yong</h1>
-            <h5 className="text-lighter">Fullstack / Web3.0 Developer</h5>
+            <h1>Lim Jia Yong</h1>
+            <h5 className="text-lighter">Fullstack Software Developer / Digital Marketer</h5>
 
             {/* CTA */}
             <div className="mt-4 d-flex justify-content-center">

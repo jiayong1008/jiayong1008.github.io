@@ -25,27 +25,31 @@ const About = () => {
           <div className="about__cards">
             <article className="about__card">
               <FaAward className='about__icon' />
-              <h5>Experience</h5>
-              <small>2+ Years Dev Experience</small>
+              <h5>Overall Experience</h5>
+              <small>2 Years Software Engineer</small><br />
+              <small>1+ Years Digital Marketer</small>
             </article>
 
             <article className="about__card">
               <HiLightBulb className='about__icon' />
               <h5>Academic</h5>
-              <small>CGPA 4.00 in Local Uni</small>
+              <small>Diploma in Data Analytics (Distinction)</small><br />
+              <small>Bachelors in Financial Technology</small><br />
+              <small>CGPA 3.95</small>
             </article>
 
             <article className="about__card">
               <AiFillFolderOpen className='about__icon' />
-              <h5>Projects</h5>
-              <small>10+ Industrial-Level Projects</small>
+              <h5>Working Experience</h5>
+              <small>Developed a System for a Startup Company</small><br />
+              <small>Secured RM 23k+ Sales from Digital Marketing</small>
             </article>
           </div>
 
           <p>
-            Passionate in web development. Interested in collabing internationally. 
-            I can build a website for you, just drop me a DM, I won't eat you.
-            I'm also a blockchain enthusiast, so if you've got a web3 idea, hit me up.
+            Passionate in digital markeing and web development. Interested in collaborating internationally. 
+            I can market your product /service, build a website for you. 
+            Feel free to drop me a DM for more info, I won't eat you. :D
           </p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
 

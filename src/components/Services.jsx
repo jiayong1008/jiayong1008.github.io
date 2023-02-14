@@ -1,23 +1,21 @@
 import React from 'react'
 import { BsCheck } from 'react-icons/bs'
 
-const webDevServices = [
-  'Customized personal website.',
-  'E-commerce website.',
-  'Any system (PM me).',
+const swDevServices = [
+  'Website / Mobile Application',
+  'Customized Application with API Integration.',
+  'Any System (PM me).',
 ];
 
-const web3Services = [
-  'Basic mint page.',
-  'Create customized token.',
-  'Transfer token page.',
+const digitalMarketing = [
+  'Facebook Advertising',
+  'Social Media Advertising',
+  'Search Engine Optimization (SEO)',
 ];
 
-const collaboration = [
-  'Interested in building a web3 casino.',
-  'Welcome any collaborators who are interested.',
-  'Prefably possess skills in Solidity and React.',
-  'We will build a billion-dollar empire tgt.',
+const interests = [
+  'Tech + Business',
+  'Welcome any interesting projects.',
 ];
 
 const ServiceWrapper = ({ title, services }) => (
@@ -45,9 +43,9 @@ const Services = () => {
       <h2>Services</h2>
 
       <div className="container services__container">
-        <ServiceWrapper title='Web Development' services={webDevServices} />
-        <ServiceWrapper title='Web 3.0' services={web3Services} />
-        <ServiceWrapper title='Collaboration' services={collaboration} />
+        <ServiceWrapper title='Software Development' services={swDevServices} />
+        <ServiceWrapper title='Digital Marketing' services={digitalMarketing} />
+        <ServiceWrapper title='Interests' services={interests} />
       </div>
     </section>
   )
